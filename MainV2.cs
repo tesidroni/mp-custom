@@ -2095,6 +2095,7 @@ namespace MissionPlanner
             MyView.AddScreen(new MainSwitcher.Screen("Client", new GCSViews.Client(), false));
             MyView.AddScreen(new MainSwitcher.Screen("UserControl1", new GCSViews.UserControl1(), false));
             MyView.AddScreen(new MainSwitcher.Screen("Oculus", new GCSViews.Oculus(), false));
+            MyView.AddScreen(new MainSwitcher.Screen("Gimbal", new GCSViews.Gimbal(), false));
 
             try
             {
@@ -2892,7 +2893,7 @@ namespace MissionPlanner
 
         private void gIMBALToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            MyView.ShowScreen("Gimbal");
         }
 
         private void cLIENTToolStripMenuItem_Click_1(object sender, EventArgs e)

@@ -456,6 +456,12 @@
     <Compile Include="GCSViews\MotionCamera.Designer.cs">
       <DependentUpon>MotionCamera.cs</DependentUpon>
     </Compile>
+    <Compile Include="GCSViews\Gimbal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GCSViews\Gimbal.Designer.cs">
+      <DependentUpon>Gimbal.cs</DependentUpon>
+    </Compile>
     <Compile Include="GCSViews\Oculus.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -1010,6 +1016,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GCSViews\MotionCamera.resx">
       <DependentUpon>MotionCamera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\Gimbal.resx">
+      <DependentUpon>Gimbal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GCSViews\Oculus.resx">
       <DependentUpon>Oculus.cs</DependentUpon>
